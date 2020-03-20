@@ -1,0 +1,19 @@
+.bg-carefield {
+  background-color: #7bb1b2;
+}
+
+.bg-visalia {
+  background-color: #4b662f;
+}
+
+.carousel .carousel-item {
+  height:600px;
+}
+
+p.extra-height {
+  line-height:2
+}
+
+.col {
+  padding:0;
+}
