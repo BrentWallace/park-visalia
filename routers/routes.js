@@ -1,3 +1,5 @@
+/* eslint-disable quote-props */
+/* eslint-disable quotes */
 const express = require('express');
 const sgMail = require('@sendgrid/mail');
 const { check, validationResult } = require('express-validator');
@@ -7,6 +9,23 @@ const router = new express.Router();
 router.get('/', (req, res) => {
   res.render('index.hbs', {
     title: 'Park Visalia Memory Care & Assisted Living',
+    jsonld: {
+      "@context": "https://schema.org",
+      "@type": "localBusiness",
+      "address": {
+        "@type": "postalAddress",
+        "addressLocality": "Visalia",
+        "addressRegion": "CA",
+        "postalCode": "93277",
+        // eslint-disable-next-line comma-dangle
+        "streetAddress": "3939 West Walnut Ave."
+      },
+      "name": "Park Visalia Assisted Living & Memory Care",
+      "url": "https://parkvisalia.com",
+      // eslint-disable-next-line comma-dangle
+      "telephone": "+15596253388"
+    // eslint-disable-next-line comma-dangle
+    }
   });
 });
 
@@ -52,6 +71,11 @@ router.get('/covid-19', (req, res) => {
   });
 });
 
+router.get('/sitemap.xml', (req, res) => {
+  const file = `${__dirname}/../public/sitemaps/sitemap.xml`;
+  res.download(file);
+});
+
 router.get('/contact', (req, res) => {
   res.render('contact.hbs', {
     title: 'Contact Us',
@@ -74,7 +98,17 @@ router.post('/contact', [
     return res.status(400).send();
   }
   const toEmail = process.env.EMAIL_RECIPIENT.split(',');
-  const { fromEmail, firstName, lastName, phone, referralSource, inquiringFor, brochure, tour, comments } = req.body;
+  const {
+    fromEmail,
+    firstName,
+    lastName,
+    phone,
+    referralSource,
+    inquiringFor,
+    brochure,
+    tour,
+    comments,
+  } = req.body;
   const msg = {
     to: toEmail,
     from: fromEmail,
