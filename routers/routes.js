@@ -9,7 +9,7 @@ const router = new express.Router();
 router.get('/', (req, res) => {
   res.render('index.hbs', {
     title: 'Park Visalia Memory Care & Assisted Living',
-    jsonld: {
+    jsonld: `{
       "@context": "https://schema.org",
       "@type": "localBusiness",
       "address": {
@@ -25,7 +25,7 @@ router.get('/', (req, res) => {
       // eslint-disable-next-line comma-dangle
       "telephone": "+15596253388"
     // eslint-disable-next-line comma-dangle
-    }
+    }`
   });
 });
 
