@@ -12,6 +12,7 @@ router.get('/', (req, res) => {
     jsonld: `{
       "@context": "https://schema.org",
       "@type": "localBusiness",
+      "image": "https://parkvisalia.com/img/gallery/visalia-living-room.jpg"
       "address": {
         "@type": "postalAddress",
         "addressLocality": "Visalia",
