@@ -26,7 +26,7 @@ router.get('/', (req, res) => {
       // eslint-disable-next-line comma-dangle
       "telephone": "+15596253388"
     // eslint-disable-next-line comma-dangle
-    }`
+    }`,
   });
 });
 
