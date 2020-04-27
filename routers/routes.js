@@ -9,10 +9,12 @@ const router = new express.Router();
 router.get('/', (req, res) => {
   res.render('index.hbs', {
     title: 'Park Visalia Memory Care & Assisted Living',
+    description: 'Welcome to Park Visalia, an assisted living and memory care senior living community in Visalia, California. Park Visalia offers an engaging and varied lifestyle that empowers individuals to enjoy creative pursuits, refine skills, revisit old hobbies, and discover new passions in a family environment.',
     jsonld: `{
       "@context": "https://schema.org",
       "@type": "localBusiness",
       "image": "https://parkvisalia.com/img/gallery/visalia-living-room.jpg",
+      "logo": "https://parkvisalia.com/img/park-visalia-logo.png",
       "address": {
         "@type": "postalAddress",
         "addressLocality": "Visalia",
@@ -24,8 +26,9 @@ router.get('/', (req, res) => {
       "name": "Park Visalia Assisted Living & Memory Care",
       "url": "https://parkvisalia.com",
       // eslint-disable-next-line comma-dangle
-      "telephone": "+15596253388"
+      "telephone": "+15596253388",
     // eslint-disable-next-line comma-dangle
+      "sameAs": ["https://www.facebook.com/parkvisaliaseniorliving/","https://www.instagram.com/parkvisalia_seniorliving/"]
     }`,
   });
 });
@@ -42,7 +45,7 @@ router.get('/photos', (req, res) => {
   });
 });
 
-router.get('/videos', (req,res) => {
+router.get('/videos', (req, res) => {
   res.render('videos.hbs', {
     title: 'Videos',
   });
@@ -81,6 +84,11 @@ router.get('/covid-19', (req, res) => {
 router.get('/sitemap.xml', (req, res) => {
   const file = `${__dirname}/../public/sitemaps/sitemap.xml`;
   res.download(file);
+});
+
+router.get('/robots.txt', (req, res) => {
+  res.type('text/plain');
+  res.send('User-agent: *\nAllow: /*\nSitemap: https://parkvisalia.com/sitemap.xml');
 });
 
 router.get('/contact', (req, res) => {
