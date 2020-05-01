@@ -63,10 +63,10 @@ router.get('/photos', (req, res) => {
 
 router.get('/photos/activities', (req, res) => {
   res.render('photos.hbs', {
-    title: 'Activities Photo Gallery',
+    title: 'Activities Photos',
     albums: [
       {
-        title: 'Texas Chili Cook-Off',
+        title: 'Texas Chili Cook-Off - January 2020',
         target: 'park-visalia-community-photos',
         photos: [
           { src: '/img/activities/2020/chili-cookoff/Chili1.jpg', alt: '' },
@@ -77,6 +77,26 @@ router.get('/photos/activities', (req, res) => {
           { src: '/img/activities/2020/chili-cookoff/Chili6.jpg', alt: '' },
           { src: '/img/activities/2020/chili-cookoff/Chili7.jpg', alt: '' },
           { src: '/img/activities/2020/chili-cookoff/Chili8.jpg', alt: '' },
+        ],
+      },
+      {
+        title: 'Happy Holidays - December 2019',
+        target: 'holidays-2019',
+        photos: [
+          { src: '/img/activities/2019/holidays/PV1.jpg', alt: '' },
+          { src: '/img/activities/2019/holidays/PV2.jpg', alt: '' },
+          { src: '/img/activities/2019/holidays/PV3.jpg', alt: '' },
+          { src: '/img/activities/2019/holidays/PV4.jpg', alt: '' },
+          { src: '/img/activities/2019/holidays/PV5.jpg', alt: '' },
+        ],
+      },
+      {
+        title: 'Grand Opening - October 2019',
+        target: 'grand-opening',
+        photos: [
+          { src: '/img/activities/2019/grand-opening/Tipper1.jpg', alt: '' },
+          { src: '/img/activities/2019/grand-opening/Tipper2.jpg', alt: '' },
+          { src: '/img/activities/2019/grand-opening/JPEGpark visalia_save the date_flyer_.jpg', alt: '' },
         ],
       },
     ],
