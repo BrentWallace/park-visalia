@@ -6,7 +6,7 @@
   background-color: #4b662f;
 }
 
-.carousel .carousel-item {
+#homeSlider>.carousel-inner>.carousel-item {
   height:600px;
 }
 

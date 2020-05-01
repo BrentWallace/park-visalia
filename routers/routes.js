@@ -42,6 +42,44 @@ router.get('/about', (req, res) => {
 router.get('/photos', (req, res) => {
   res.render('photos.hbs', {
     title: 'Photo Gallery',
+    albums: [
+      {
+        title: '',
+        target: 'park-visalia-community-photos',
+        photos: [
+          { src: '/img/gallery/visalia-lobby.jpg', alt: '' },
+          { src: '/img/gallery/visalia-living-room.jpg', alt: '' },
+          { src: '/img/gallery/visalia-activity-room.jpg', alt: '' },
+          { src: '/img/gallery/visalia-theater.jpg', alt: '' },
+          { src: '/img/gallery/visalia-bedroom.jpg', alt: '' },
+          { src: '/img/gallery/visalia-courtyard-2500.jpg', alt: '' },
+          { src: '/img/gallery/visalia-courtyard-2.jpg', alt: '' },
+          { src: '/img/gallery/visalia-massage-room.jpg', alt: '' },
+        ],
+      },
+    ],
+  });
+});
+
+router.get('/photos/activities', (req, res) => {
+  res.render('photos.hbs', {
+    title: 'Activities Photo Gallery',
+    albums: [
+      {
+        title: 'Texas Chili Cook-Off',
+        target: 'park-visalia-community-photos',
+        photos: [
+          { src: '/img/activities/2020/chili-cookoff/Chili1.jpg', alt: '' },
+          { src: '/img/activities/2020/chili-cookoff/Chili2.jpg', alt: '' },
+          { src: '/img/activities/2020/chili-cookoff/Chili3.jpg', alt: '' },
+          { src: '/img/activities/2020/chili-cookoff/Chili4.jpg', alt: '' },
+          { src: '/img/activities/2020/chili-cookoff/Chili5.jpg', alt: '' },
+          { src: '/img/activities/2020/chili-cookoff/Chili6.jpg', alt: '' },
+          { src: '/img/activities/2020/chili-cookoff/Chili7.jpg', alt: '' },
+          { src: '/img/activities/2020/chili-cookoff/Chili8.jpg', alt: '' },
+        ],
+      },
+    ],
   });
 });
 
