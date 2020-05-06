@@ -8,7 +8,7 @@ const router = new express.Router();
 
 router.get('/', (req, res) => {
   res.render('index.hbs', {
-    title: 'Park Visalia Memory Care & Assisted Living',
+    title: 'Park Visalia Assisted Living & Memory Care',
     description: 'Welcome to Park Visalia, an assisted living and memory care senior living community in Visalia, California. Park Visalia offers an engaging and varied lifestyle that empowers individuals to enjoy creative pursuits, refine skills, revisit old hobbies, and discover new passions in a family environment.',
     jsonld: `{
       "@context": "https://schema.org",
