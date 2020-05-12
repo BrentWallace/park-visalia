@@ -46,6 +46,7 @@ router.get('/photos', (req, res) => {
       {
         title: '',
         target: 'park-visalia-community-photos',
+        description: '',
         photos: [
           { src: '/img/gallery/visalia-lobby.jpg', alt: '' },
           { src: '/img/gallery/visalia-living-room.jpg', alt: '' },
@@ -68,6 +69,7 @@ router.get('/photos/activities', (req, res) => {
       {
         title: 'Texas Chili Cook-Off - January 2020',
         target: 'park-visalia-community-photos',
+        description: '',
         photos: [
           { src: '/img/activities/2020/chili-cookoff/Chili1.jpg', alt: '' },
           { src: '/img/activities/2020/chili-cookoff/Chili2.jpg', alt: '' },
@@ -82,6 +84,7 @@ router.get('/photos/activities', (req, res) => {
       {
         title: 'Happy Holidays - December 2019',
         target: 'holidays-2019',
+        description: '',
         photos: [
           { src: '/img/activities/2019/holidays/PV1.jpg', alt: '' },
           { src: '/img/activities/2019/holidays/PV2.jpg', alt: '' },
@@ -93,10 +96,30 @@ router.get('/photos/activities', (req, res) => {
       {
         title: 'Grand Opening - October 2019',
         target: 'grand-opening',
+        description: '',
         photos: [
           { src: '/img/activities/2019/grand-opening/Tipper1.jpg', alt: '' },
           { src: '/img/activities/2019/grand-opening/Tipper2.jpg', alt: '' },
           { src: '/img/activities/2019/grand-opening/JPEGpark visalia_save the date_flyer_.jpg', alt: '' },
+        ],
+      },
+    ],
+  });
+});
+
+router.get('/photos/dining', (req, res) => {
+  res.render('photos.hbs', {
+    title: 'Dining Photos',
+    albums: [
+      {
+        title: '',
+        target: 'park-visalia-dining-photos',
+        description: '',
+        photos: [
+          { src: '/img/dining/PVFoodpicture.png', alt: '' },
+          { src: '/img/dining/Valentines1.jpg', alt: '' },
+          { src: '/img/dining/Valentines2.jpg', alt: '' },
+          { src: '/img/dining/Valentines3.jpg', alt: '' },
         ],
       },
     ],
@@ -136,6 +159,12 @@ router.get('/activities', (req, res) => {
 router.get('/covid-19', (req, res) => {
   res.render('covid.hbs', {
     title: 'COVID-19',
+  });
+});
+
+router.get('/testimonials', (req, res) => {
+  res.render('testimonials.hbs', {
+    title: 'Family Testimonials',
   });
 });
 
