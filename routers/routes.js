@@ -120,6 +120,7 @@ router.get('/photos/dining', (req, res) => {
           { src: '/img/dining/Valentines1.jpg', alt: '' },
           { src: '/img/dining/Valentines2.jpg', alt: '' },
           { src: '/img/dining/Valentines3.jpg', alt: '' },
+          { src: '/img/dining/dining.jpeg', alt: '' },
         ],
       },
     ],
