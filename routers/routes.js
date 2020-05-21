@@ -69,7 +69,7 @@ router.get('/photos/activities', (req, res) => {
       {
         title: 'Animal Friends',
         target: 'animal-friends',
-        description: '',
+        description: 'We love our furry friends, especially when they visit our residents, including our pet therapy programs and outdoor pet adoption fairs.',
         photos: [
           { src: '/img/activities/2020/pet-adoption/PVpet1.jpg', alt: '' },
           { src: '/img/activities/2020/pet-adoption/PVpet2.jpg', alt: '' },
