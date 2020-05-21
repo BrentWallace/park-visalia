@@ -105,6 +105,8 @@ router.get('/photos/activities', (req, res) => {
           { src: '/img/activities/2019/holidays/PV3.jpg', alt: '' },
           { src: '/img/activities/2019/holidays/PV4.jpg', alt: '' },
           { src: '/img/activities/2019/holidays/PV5.jpg', alt: '' },
+          { src: '/img/activities/2019/holidays/PV6.jpg', alt: '' },
+          { src: '/img/activities/2019/holidays/PV7.jpg', alt: '' },
         ],
       },
       {
