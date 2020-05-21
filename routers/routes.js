@@ -67,6 +67,20 @@ router.get('/photos/activities', (req, res) => {
     title: 'Activities Photo Gallery',
     albums: [
       {
+        title: 'Animal Friends',
+        target: 'animal-friends',
+        description: '',
+        photos: [
+          { src: '/img/activities/2020/pet-adoption/PVpet1.jpg', alt: '' },
+          { src: '/img/activities/2020/pet-adoption/PVpet2.jpg', alt: '' },
+          { src: '/img/activities/2020/pet-adoption/PVpet3.jpg', alt: '' },
+          { src: '/img/activities/2020/pet-adoption/PVpet4.jpg', alt: '' },
+          { src: '/img/activities/2020/pet-adoption/PVpet5.jpg', alt: '' },
+          { src: '/img/activities/2020/pet-adoption/PVpet6.jpg', alt: '' },
+          { src: '/img/activities/2020/pet-adoption/PVpet7.jpg', alt: '' },
+        ],
+      },
+      {
         title: 'Texas Chili Cook-Off - January 2020',
         target: 'park-visalia-community-photos',
         description: '',
