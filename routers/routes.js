@@ -129,7 +129,7 @@ router.get('/photos/dining', (req, res) => {
     description: 'Our culinary team at Park Visalia Assisted Living & Memory Care is committed to providing a nurturing and satisfying dining experience for our residents. Always having our residents well-being and care in mind, our meals are prepared with fresh and flavorful ingredients with dining options and choices.',
     albums: [
       {
-        title: '',
+        title: 'Restaurant Style Dining',
         target: 'park-visalia-dining-photos',
         photos: [
           { src: '/img/dining/PVFoodpicture.png', alt: '' },
@@ -137,6 +137,7 @@ router.get('/photos/dining', (req, res) => {
           { src: '/img/dining/Valentines2.jpg', alt: '' },
           { src: '/img/dining/Valentines3.jpg', alt: '' },
           { src: '/img/dining/dining.jpeg', alt: '' },
+          { src: '/img/dining/PVDiningwrap.png', alt: '' },
         ],
       },
     ],
