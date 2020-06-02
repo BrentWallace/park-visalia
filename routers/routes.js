@@ -67,6 +67,21 @@ router.get('/photos/activities', (req, res) => {
     title: 'Activities Photo Gallery',
     albums: [
       {
+        title: 'Exterior Paingting Contest',
+        target: 'painting-contest',
+        description: '',
+        photos: [
+          { src: '/img/activities/2020/painting-contest/PVRawhide1.jpg', alt: '' },
+          { src: '/img/activities/2020/painting-contest/PVWindow3.jpg', alt: '' },
+          { src: '/img/activities/2020/painting-contest/PVWindow5.jpg', alt: '' },
+          { src: '/img/activities/2020/painting-contest/PVWindow6.jpg', alt: '' },
+          { src: '/img/activities/2020/painting-contest/PVWindow8.jpg', alt: '' },
+          { src: '/img/activities/2020/painting-contest/PVWindow9.jpg', alt: '' },
+          { src: '/img/activities/2020/painting-contest/PVWindow11.jpg', alt: '' },
+          { src: '/img/activities/2020/painting-contest/PVWindow12.jpg', alt: '' },
+        ],
+      },
+      {
         title: 'Animal Friends',
         target: 'animal-friends',
         description: 'We love our furry friends, especially when they visit our residents, including our pet therapy programs and outdoor pet adoption fairs.',
