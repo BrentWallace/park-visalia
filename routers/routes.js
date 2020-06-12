@@ -67,7 +67,7 @@ router.get('/photos/activities', (req, res) => {
     title: 'Activities Photo Gallery',
     albums: [
       {
-        title: 'Exterior Paingting Contest',
+        title: 'Exterior Painting Contest',
         target: 'painting-contest',
         description: '',
         photos: [
