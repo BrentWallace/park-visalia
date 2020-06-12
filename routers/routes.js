@@ -79,6 +79,11 @@ router.get('/photos/activities', (req, res) => {
           { src: '/img/activities/2020/painting-contest/PVWindow9.jpg', alt: '' },
           { src: '/img/activities/2020/painting-contest/PVWindow11.jpg', alt: '' },
           { src: '/img/activities/2020/painting-contest/PVWindow12.jpg', alt: '' },
+          { src: '/img/activities/2020/painting-contest/PVWindow13.jpg', alt: '' },
+          { src: '/img/activities/2020/painting-contest/PVWindow15.jpg', alt: '' },
+          { src: '/img/activities/2020/painting-contest/PVWindow16.jpg', alt: '' },
+          { src: '/img/activities/2020/painting-contest/PVWindow18.jpg', alt: '' },
+          { src: '/img/activities/2020/painting-contest/PVWindowsWinner1.jpg', alt: '' },
         ],
       },
       {
