@@ -158,6 +158,7 @@ router.get('/photos/dining', (req, res) => {
           { src: '/img/dining/Valentines3.jpg', alt: '' },
           { src: '/img/dining/dining.jpeg', alt: '' },
           { src: '/img/dining/PVDiningwrap.png', alt: '' },
+          { src: '/img/dining/PVDiningTipa2.jpg', alt: '' },
         ],
       },
     ],
