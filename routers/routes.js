@@ -67,20 +67,20 @@ router.get('/photos/activities', (req, res) => {
     title: 'Activities Photo Gallery',
     albums: [
       {
-        title: 'Animal Friends',
-        target: 'animal-friends',
-        description: 'Fun activities with our residents - 2020',
+        title: 'Fun Activities with Our Residents - 2020',
+        target: 'fun-activities',
+        description: '',
         photos: [
-            { src: '/img/activities/2020/animal-friends/PVbirthday51120.jpg', alt:'' },
-            { src: '/img/activities/2020/animal-friends/PVFD1.jpg', alt:'' },
-            { src: '/img/activities/2020/animal-friends/PVFD3.jpg', alt:'' },
-            { src: '/img/activities/2020/animal-friends/PVHappyBirthday2.jpg', alt:'' },
-            { src: '/img/activities/2020/animal-friends/PVHBballoons.jpg', alt:'' },
-            { src: '/img/activities/2020/animal-friends/PVKnit1.jpg', alt:'' },
-            { src: '/img/activities/2020/animal-friends/PVKnit5.jpg', alt:'' },
-            { src: '/img/activities/2020/animal-friends/PVSunglass1.jpg', alt:'' },
-            { src: '/img/activities/2020/animal-friends/PVSunglass3.jpg', alt:'' },
-            { src: '/img/activities/2020/animal-friends/PVSunglass11.jpg', alt:'' },
+            { src: '/img/activities/2020/fun-with-residents/PVbirthday51120.jpg', alt:'' },
+            { src: '/img/activities/2020/fun-with-residents/PVFD1.jpg', alt:'' },
+            { src: '/img/activities/2020/fun-with-residents/PVFD3.jpg', alt:'' },
+            { src: '/img/activities/2020/fun-with-residents/PVHappyBirthday2.jpg', alt:'' },
+            { src: '/img/activities/2020/fun-with-residents/PVHBballoons.jpg', alt:'' },
+            { src: '/img/activities/2020/fun-with-residents/PVKnit1.jpg', alt:'' },
+            { src: '/img/activities/2020/fun-with-residents/PVKnit5.jpg', alt:'' },
+            { src: '/img/activities/2020/fun-with-residents/PVSunglass1.jpg', alt:'' },
+            { src: '/img/activities/2020/fun-with-residents/PVSunglass3.jpg', alt:'' },
+            { src: '/img/activities/2020/fun-with-residents/PVSunglass11.jpg', alt:'' },
         ]
       },
       {
