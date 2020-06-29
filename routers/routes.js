@@ -69,7 +69,7 @@ router.get('/photos/activities', (req, res) => {
       {
         title: 'Animal Friends',
         target: 'animal-friends',
-        description: '',
+        description: 'Fun activities with our residents - 2020',
         photos: [
             { src: '/img/activities/2020/animal-friends/PVbirthday51120.jpg', alt:'' },
             { src: '/img/activities/2020/animal-friends/PVFD1.jpg', alt:'' },
