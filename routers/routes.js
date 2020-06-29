@@ -67,6 +67,23 @@ router.get('/photos/activities', (req, res) => {
     title: 'Activities Photo Gallery',
     albums: [
       {
+        title: 'Animal Friends',
+        target: 'animal-friends',
+        description: '',
+        photos: [
+            { src: '/img/activities/2020/animal-friends/PVbirthday51120.jpg', alt:'' },
+            { src: '/img/activities/2020/animal-friends/PVFD1.jpg', alt:'' },
+            { src: '/img/activities/2020/animal-friends/PVFD3.jpg', alt:'' },
+            { src: '/img/activities/2020/animal-friends/PVHappyBirthday2.jpg', alt:'' },
+            { src: '/img/activities/2020/animal-friends/PVHBballoons.jpg', alt:'' },
+            { src: '/img/activities/2020/animal-friends/PVKnit1.jpg', alt:'' },
+            { src: '/img/activities/2020/animal-friends/PVKnit5.jpg', alt:'' },
+            { src: '/img/activities/2020/animal-friends/PVSunglass1.jpg', alt:'' },
+            { src: '/img/activities/2020/animal-friends/PVSunglass3.jpg', alt:'' },
+            { src: '/img/activities/2020/animal-friends/PVSunglass11.jpg', alt:'' },
+        ]
+      },
+      {
         title: 'Exterior Window Painting Contest - May 2020',
         target: 'painting-contest',
         description: '',
