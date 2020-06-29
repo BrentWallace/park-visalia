@@ -67,23 +67,6 @@ router.get('/photos/activities', (req, res) => {
     title: 'Activities Photo Gallery',
     albums: [
       {
-        title: 'Fun Activities with Our Residents - 2020',
-        target: 'fun-activities',
-        description: '',
-        photos: [
-            { src: '/img/activities/2020/fun-with-residents/PVbirthday51120.jpg', alt:'' },
-            { src: '/img/activities/2020/fun-with-residents/PVFD1.jpg', alt:'' },
-            { src: '/img/activities/2020/fun-with-residents/PVFD3.jpg', alt:'' },
-            { src: '/img/activities/2020/fun-with-residents/PVHappyBirthday2.jpg', alt:'' },
-            { src: '/img/activities/2020/fun-with-residents/PVHBballoons.jpg', alt:'' },
-            { src: '/img/activities/2020/fun-with-residents/PVKnit1.jpg', alt:'' },
-            { src: '/img/activities/2020/fun-with-residents/PVKnit5.jpg', alt:'' },
-            { src: '/img/activities/2020/fun-with-residents/PVSunglass1.jpg', alt:'' },
-            { src: '/img/activities/2020/fun-with-residents/PVSunglass3.jpg', alt:'' },
-            { src: '/img/activities/2020/fun-with-residents/PVSunglass11.jpg', alt:'' },
-        ]
-      },
-      {
         title: 'Exterior Window Painting Contest - May 2020',
         target: 'painting-contest',
         description: '',
@@ -116,6 +99,23 @@ router.get('/photos/activities', (req, res) => {
           { src: '/img/activities/2020/pet-adoption/PVpet6.jpg', alt: '' },
           { src: '/img/activities/2020/pet-adoption/PVpet7.jpg', alt: '' },
         ],
+      },
+      {
+        title: 'Fun Activities with Our Residents - 2020',
+        target: 'fun-activities',
+        description: '',
+        photos: [
+            { src: '/img/activities/2020/fun-with-residents/PVbirthday51120.jpg', alt:'' },
+            { src: '/img/activities/2020/fun-with-residents/PVFD1.jpg', alt:'' },
+            { src: '/img/activities/2020/fun-with-residents/PVFD3.jpg', alt:'' },
+            { src: '/img/activities/2020/fun-with-residents/PVHappyBirthday2.jpg', alt:'' },
+            { src: '/img/activities/2020/fun-with-residents/PVHBballoons.jpg', alt:'' },
+            { src: '/img/activities/2020/fun-with-residents/PVKnit1.jpg', alt:'' },
+            { src: '/img/activities/2020/fun-with-residents/PVKnit5.jpg', alt:'' },
+            { src: '/img/activities/2020/fun-with-residents/PVSunglass1.jpg', alt:'' },
+            { src: '/img/activities/2020/fun-with-residents/PVSunglass3.jpg', alt:'' },
+            { src: '/img/activities/2020/fun-with-residents/PVSunglass11.jpg', alt:'' },
+        ]
       },
       {
         title: 'Texas Chili Cook-Off - January 2020',
