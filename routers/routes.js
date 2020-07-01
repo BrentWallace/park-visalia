@@ -148,6 +148,20 @@ router.get('/photos/activities', (req, res) => {
         ],
       },
       {
+        title: 'Veteran\'s Day Pancake Breakfast',
+        target: 'veterans-day-2019',
+        description: 'At this annual event, Park Visalia celebrates and honors those who have served with a special pancake breakfast.',
+        photos: [
+          { src: '/img/activities/2019/veterans-day/PVVD2.jpg', alt: '' },
+          { src: '/img/activities/2019/veterans-day/PVVD3.jpg', alt: '' },
+          { src: '/img/activities/2019/veterans-day/PVVD4.jpg', alt: '' },
+          { src: '/img/activities/2019/veterans-day/PVVD5.jpg', alt: '' },
+          { src: '/img/activities/2019/veterans-day/PVVD6.jpg', alt: '' },
+          { src: '/img/activities/2019/veterans-day/PVVD7.jpg', alt: '' },
+          { src: '/img/activities/2019/veterans-day/PVVD2019.jpg', alt: '' },
+        ],
+      },
+      {
         title: 'Walk to End Alzheimer\'s',
         target: 'alzheimers-walk-2019',
         description: '',
