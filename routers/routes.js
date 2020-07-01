@@ -98,6 +98,7 @@ router.get('/photos/activities', (req, res) => {
           { src: '/img/activities/2020/pet-adoption/PVpet5.jpg', alt: '' },
           { src: '/img/activities/2020/pet-adoption/PVpet6.jpg', alt: '' },
           { src: '/img/activities/2020/pet-adoption/PVpet7.jpg', alt: '' },
+          { src: '/img/activities/2020/pet-adoption/PVDog.jpg', alt: '' },
         ],
       },
       {
@@ -166,6 +167,9 @@ router.get('/photos/activities', (req, res) => {
         photos: [
           { src: '/img/activities/2019/grand-opening/Tipper1.jpg', alt: '' },
           { src: '/img/activities/2019/grand-opening/Tipper2.jpg', alt: '' },
+          { src: '/img/activities/2019/grand-opening/119.jpg', alt: '' },
+          { src: '/img/activities/2019/grand-opening/167.jpg', alt: '' },
+          { src: '/img/activities/2019/grand-opening/DSC07435.jpg', alt: '' },
           { src: '/img/activities/2019/grand-opening/JPEGpark visalia_save the date_flyer_.jpg', alt: '' },
         ],
       },
