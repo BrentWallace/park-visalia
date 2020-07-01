@@ -147,6 +147,19 @@ router.get('/photos/activities', (req, res) => {
         ],
       },
       {
+        title: 'Walk to End Alzheimer\'s',
+        target: 'alzheimers-walk-2019',
+        description: '',
+        photos: [
+          { src: '/img/activities/2019/alzheimers-walk/DSCF2684.jpg', alt: '' },
+          { src: '/img/activities/2019/alzheimers-walk/DSCF2692_1.jpg', alt: '' },
+          { src: '/img/activities/2019/alzheimers-walk/DSCF2710.jpg', alt: '' },
+          { src: '/img/activities/2019/alzheimers-walk/DSCF2720.jpg', alt: '' },
+          { src: '/img/activities/2019/alzheimers-walk/DSCF2724.jpg', alt: '' },
+          { src: '/img/activities/2019/alzheimers-walk/thumbnail_IMG_5542.jpg', alt: '' },
+        ]
+      },
+      {
         title: 'Grand Opening - October 2019',
         target: 'grand-opening',
         description: '',
